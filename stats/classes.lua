@@ -1,28 +1,25 @@
-local player = require( 'stats/player' )
-
 local classes = {
     warrior = {
-        player.health = player.health + 50
-        player.defense = player.defense + 25
-        player.strength = player.strength + 25
-        player.critDmg = player.critDmg + 0
+        health = 50,
+        defense = 25,
+        strength = 25,
+        critDmg = 0,
+        agility = 0
     },
     mage = {
-
+        health = 30,
+        defense = 15,
+        strength = 10,
+        critDmg = 20,
+        agility = 0
     },
     rogue = {
-
+        health = 40,
+        defense = 20,
+        strength = 15,
+        critDmg = 10,
+        agility = 25
     }
 }
 
-
 return classes
-
-local player = {
-    name = "",
-    health = 100,
-    defense = 0,
-    strength = 0,
-    critDmg = 0,
-    agility = 0
-}

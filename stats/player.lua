@@ -4,7 +4,8 @@ local player = {
     defense = 0,
     strength = 0,
     critDmg = 0,
-    agility = 0
+    agility = 0,
+    class = ""
 }
 
 return player
